@@ -6,7 +6,15 @@ require('./models/index')
 
 
 
-app.use(cors({ origin: '*' }));
+const allowedOrigins = [
+    "https://demo-ecom-frontend.vercel.app"
+];
+
+app.use(
+    cors({
+        origin: ["https://demo-ecom-frontend.vercel.app"],
+    })
+);
 app.use(express.json())
 app.use('/api', require('./routes'))
 
