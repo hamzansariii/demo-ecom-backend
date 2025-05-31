@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "u374925817_e1542",
+    "password": "HamzaTsbi@123",
+    "database": "u374925817_e1",
+    "host": "217.21.85.204",
+    "dialect": "mysql"
+  },
+  "test": { 
+    "username": "u374925817_e1542",
+    "password": "HamzaTsbi@123",
+    "database": "u374925817_e1",
+    "host": "217.21.85.204",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "u374925817_e1542",
+    "password": "HamzaTsbi@123",
+    "database": "u374925817_e1",
+    "host": "217.21.85.204",
+    "dialect": "mysql"
+  }
+}
